@@ -13,13 +13,13 @@ body {
 }
 
 h1{
-  color: white;
+  color: #86baee;
   margin-top: 31px;
   margin-bottom: 8px;
 }
 
 p {
-  color: white;
+  color: #86baee;
 }
 
 ul{
@@ -38,12 +38,16 @@ a {
   width: 300px;
   height: 15px;
   border-radius: 10px;
-  text-align: center;
-  
+  text-align: center;  
 }
-
+a:hover{
+  background-color: #fa83fb ;
+  color: white ;
+  border-radius: 25px;
+}
 footer{
-  color: white;
+  color:#86baee;
+  
 }
 
 .rodape img{
