@@ -57,10 +57,13 @@ footer{
   
  
 }
+.escrita {
+  font-size: 10px;
+}
  
 .rodape img{
-  width: 38px;
-  height: 30px;
+  width: 35px;
+  height: 29px;
 }
  
 .container {
