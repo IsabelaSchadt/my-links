@@ -3,12 +3,11 @@
   margin: 0;
   padding: 0;
 }
-
+ 
 body {
   background-color: #202330 ;
   font-family: sans-serif;
-  display: flex;
-  
+ 
 }
  
 .perfil img {
@@ -18,82 +17,28 @@ body {
 }
  
 h1{
-  color: white;
+  color: #fa83fb;
   margin-top: 31px;
   margin-bottom: 8px;
+  
 }
  
 p {
-  color: white;
+  color: #fae8aa;
 }
  
-
-nav ul li {
+ul{
   margin-top: 35px;
+}
+ 
+li {
   margin-bottom: 18px;
   list-style: none;
-
-  --c: #9f5be3;
-  --b: #fa83fb; 
-  color: var(--b);
-  font-size: 16px;
-  border: 0.3em solid var(--c);
-  border-radius: 0.5em;
-  width: 300px;
-  height: 40px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: sans-serif;
-  letter-spacing: 0.1em;
-  text-align: center;
-  line-height: 3em;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  transition: 0.5s;
-  margin: 1em;
-}
-
-nav ul li span {
-  position: absolute;
-  width: 25%;
-  height: 100%;
-  background-color: var(--b);
-  transform: translateY(150%);
-  border-radius: 50%;
-  left: calc((var(--n) - 1) * 25%);
-  transition: 0.5s;
-  transition-delay: calc((var(--n) - 1) * 0.1s);
-  z-index: -1;
-}
-
-nav ul li:hover {
-  color:#202330;
-}
-
-nav ul li:hover span {
-  transform: translateY(0) scale(2);
-}
-
-nav ul li span:nth-child(1) {
-  --n: 1;
-}
-
-nav ul li span:nth-child(2) {
-  --n: 2;
-}
-
-nav ul li span:nth-child(3) {
-  --n: 3;
-}
-
-nav ul li span:nth-child(4) {
-  --n: 4;
 }
 a {
-  
+  background-color: #9f5be3;
   color: white;
-  padding: 0px;
+  padding: 15px;
   text-decoration: none;
   display: block;
   width: 300px;
@@ -101,16 +46,21 @@ a {
   border-radius: 10px;
   text-align: center;  
 }
-
-
+a:hover{
+  background-color: #fa83fb ;
+  color: white ;
+  border-radius: 25px;
+ 
+}
 footer{
-  color:white;
+  color:#fae8aa;
+  
  
 }
  
 .rodape img{
-  width: 50px;
-  height: 45px;
+  width: 38px;
+  height: 30px;
 }
  
 .container {
